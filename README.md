@@ -1,6 +1,6 @@
-# Basic API USING GIN AND REDIS
+# Basic API using GIN and REDIS
 
-This a basic api with some endpoints to test redis on go
+This a basic api with some endpoints to test redis on go.
 
 ### Instalación 🔧
 
@@ -10,13 +10,13 @@ To run this project it is necessary to have redis installed or a docker containe
 docker run --name my-redis -p 6379:6379 -d redis
 ```
 
-Run
+Run:
 
 ```
 go run main.go
-...
+```
 
-## Construido con 🛠️
+### Construido con 🛠️
 
 * [Golang](https://golang.org/) - Programming language .
 * [Go-redis](https://github.com/go-redis/redis) - Type-safe Redis client for Golang.
