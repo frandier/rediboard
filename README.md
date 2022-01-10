@@ -4,7 +4,7 @@ This a basic api with some endpoints to test redis on go
 
 ### Instalación 🔧
 
-to run this project it is necessary to have redis installed or a docker container with redis image running:
+To run this project it is necessary to have redis installed or a docker container with redis image running:
 
 ```
 docker run --name my-redis -p 6379:6379 -d redis
@@ -14,6 +14,7 @@ Run
 
 ```
 go run main.go
+...
 
 ## Construido con 🛠️
 
